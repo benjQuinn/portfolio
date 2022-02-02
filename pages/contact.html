@@ -21,10 +21,44 @@
 </header>
 
 <main>
-  <section>
-      <h3>Contact</h3>
+  <div>
+      <h3>Contact Me</h3>
+        <p>Get in Touch!</p>
+  </div>
 
-  </section>
+  <div>
+    <form action="#" method="post">
+        
+        <fieldset>
+            <legend>Your Details:</legend>
+            <label>
+                Name:
+                <input type="text" value="name">
+            </label>
+            <label>
+                Email:
+                <input type="email" value="email">
+            </label>
+        </fieldset>
+    <br />
+        <fieldset>
+            <legend>Your Details:</legend>
+            <label>
+                <input type="radio" name="reason" value="work" checked="checked"/>
+                Work
+                <input type="radio" name="reason" value="help"/>
+                Help
+                <input type="radio" name="reason" value="chat"/>
+                Chat
+            </label>
+    <br /><br />
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="Send me a message!"></textarea>
+    <br /><br />
+            <input type="submit" value="Send">
+        </fieldset>
+    </form>
+  </div>
 </main>
 
 <footer>
