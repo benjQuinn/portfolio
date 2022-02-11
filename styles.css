@@ -1,0 +1,113 @@
+@font-face {
+    font-family: ceefaxheading;
+    src: url(fonts/ceefaxheading.ttf);
+}
+@font-face {
+    font-family: modeseven;
+    src: url(fonts/modeseven.ttf);
+  }
+@font-face {
+    font-family: robotomonolight;
+    src: url(fonts/Roboto_Mono/static/RobotoMono-Light.ttf);
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-weight: 1px;
+    font-family: modeseven;
+    text-transform: uppercase;
+    padding: 5px 10px;
+}
+.banner {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+#time {
+    color: yellow;
+}
+.name h1 {
+    margin: 10px;
+    font-size: 75px;
+    padding: 10px 10px;
+    font-family: ceefaxheading, monospace, 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ben {
+    background-color: white;
+    color: black;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    border: 7px solid white;
+    margin: 0px;
+}
+#quinn {
+    background-color: blue;
+    flex-grow: 2;
+    font-size: 91px;
+    text-align: center;
+    text-shadow: -5px -5px black;
+    color: yellow;
+    font-stretch: ultra-condensed;
+}
+
+.name {
+    display: flex;
+}
+#occupation {
+    width: 100%;
+    font-size: 30px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: yellow;
+}
+.tagline h2 {
+    color: white;
+}
+hr {
+    border: 2px solid blue;
+    background-color: blue;
+}
+footer p {
+    text-align: center;
+    background-color: blue;
+    color: yellow;
+    border: 5px solid blue;
+    margin: 0;
+}
+.tab {
+    margin: 150px;
+}
+div h3 {
+    display: inline-block;
+    font-size: 25px;
+}
+nav div {
+    width: 56%;
+    display: flex;
+    justify-content: space-between;
+}
+nav div a {
+    color: yellow;
+    text-decoration: none;
+}
+nav div a:hover {
+    color: yellowgreen;
+}
+.socials {
+    width: 100%;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-around;
+}
+.socials a {
+    color: yellowgreen;
+    padding: 10px;
+    text-decoration: none;
+}
+a.github{color:red;}
+a.instagram{color: yellow;}
+a.facebook{color: lightblue;}
+footer div a:hover {
+    text-decoration: underline;
+}
