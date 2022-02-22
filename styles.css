@@ -56,13 +56,14 @@ body {
 }
 #occupation {
     width: 100%;
-    font-size: 30px;
+    font-size: 1.5em;
     font-weight: lighter;
     text-transform: uppercase;
     color: yellow;
 }
 .tagline h2 {
     color: white;
+    font-size: 1.5em;
 }
 hr {
     border: 2px solid blue;
@@ -80,12 +81,13 @@ footer p {
 }
 div h3 {
     display: inline-block;
-    font-size: 25px;
+    font-size: 1.4em;
 }
 nav div {
-    width: 56%;
+    width: 40%;
     display: flex;
     justify-content: space-between;
+    border-right: 3px solid blue;
 }
 nav div a {
     color: yellow;
@@ -93,6 +95,9 @@ nav div a {
 }
 nav div a:hover {
     color: yellowgreen;
+}
+h3.number {
+    padding-right: 25px;
 }
 .socials {
     width: 100%;
@@ -105,9 +110,38 @@ nav div a:hover {
     padding: 10px;
     text-decoration: none;
 }
-a.github{color:red;}
-a.instagram{color: yellow;}
-a.facebook{color: lightblue;}
+a.github {color:red;}
+a.instagram {color: yellow;}
+a.facebook {color: lightblue;}
 footer div a:hover {
     text-decoration: underline;
+}
+
+div.about-me {
+    position: absolute;
+    /* border: 5px solid goldenrod; */
+    height: 320px;
+    width: 55%;
+    position: absolute;
+    right: 45px;
+    top: 280px;
+    flex-wrap: wrap;
+    font-size: 1.15em; 
+    color: yellow;
+    border: none;
+}
+.body-text {
+    color:lightblue;
+}
+.body-text > a {
+    text-decoration: none;
+    color: yellow;
+}
+.body-text > a:hover {
+    text-decoration: underline;
+}
+#about-me a:hover > div {
+    display: block;
+
+    }
 }
