@@ -22,7 +22,7 @@ body {
 .banner {
     display: flex;
     justify-content: space-between;
-    font-size: 20px;
+    font-size: 18px;
 }
 #time {
     color: yellow;
@@ -56,14 +56,14 @@ body {
 }
 #occupation {
     width: 100%;
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-weight: lighter;
     text-transform: uppercase;
     color: yellow;
 }
 .tagline h2 {
     color: white;
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 hr {
     border: 2px solid blue;
@@ -123,16 +123,17 @@ div.about-me {
     height: 320px;
     width: 55%;
     position: absolute;
-    right: 45px;
+    right: 40px;
     top: 280px;
     flex-wrap: wrap;
-    font-size: 1.15em; 
+    font-size: 0.9em; 
     color: yellow;
     border: none;
+    display: none;
 }
-.body-text {
-    color:lightblue;
-}
+.body-text {color:lightblue;}
+.body-text li{color: lightblue;}
+
 .body-text > a {
     text-decoration: none;
     color: yellow;
@@ -140,8 +141,83 @@ div.about-me {
 .body-text > a:hover {
     text-decoration: underline;
 }
-#about-me a:hover > div {
+#about-me:hover > div {
     display: block;
-
-    }
+}
+div.qualities-box {
+    position: absolute;
+    /* border: 5px solid goldenrod; */
+    height: 320px;
+    width: 55%;
+    position: absolute;
+    right: 40px;
+    top: 300px;
+    flex-wrap: wrap;
+    font-size: 0.9em; 
+    color: yellow;
+    border: none;
+    display: none;
+}
+#qualities:hover > div {
+    display: block;
+}
+div.hobbies-box {
+    position: absolute;
+    /* border: 5px solid goldenrod; */
+    height: 320px;
+    width: 55%;
+    position: absolute;
+    right: 40px;
+    top: 300px;
+    flex-wrap: wrap;
+    font-size: 0.9em; 
+    color: yellow;
+    border: none;
+    display: none;
+}
+#hobbies-and-interests:hover > div {
+    display: block;
+}
+div.projects-box {
+    position: absolute;
+    /* border: 5px solid goldenrod; */
+    height: 320px;
+    width: 55%;
+    position: absolute;
+    right: 40px;
+    top: 280px;
+    flex-wrap: wrap;
+    font-size: 0.9em; 
+    color: yellow;
+    border: none;
+    display: none;
+}
+#projects:hover > div {
+    display: block;
+}
+div.contact-box {
+    position: absolute;
+    border: 5px solid goldenrod;
+    height: 320px;
+    width: 55%;
+    position: absolute;
+    right: 40px;
+    top: 300px;
+    flex-wrap: wrap;
+    font-size: 0.em; 
+    color: yellow;
+    border: none;
+    display: none;
+}
+form {
+    color: lightblue;
+}
+legend {
+    color: yellow;
+}
+#contact:hover > div {
+    display: block;
+}
+#span {
+    color: yellow;
 }
