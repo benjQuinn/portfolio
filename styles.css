@@ -1,0 +1,223 @@
+@font-face {
+    font-family: ceefaxheading;
+    src: url(fonts/ceefaxheading.ttf);
+}
+@font-face {
+    font-family: modeseven;
+    src: url(fonts/modeseven.ttf);
+  }
+@font-face {
+    font-family: robotomonolight;
+    src: url(fonts/Roboto_Mono/static/RobotoMono-Light.ttf);
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-weight: 1px;
+    font-family: modeseven;
+    text-transform: uppercase;
+    padding: 5px 10px;
+}
+.banner {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+#time {
+    color: yellow;
+}
+.name h1 {
+    margin: 10px;
+    font-size: 75px;
+    padding: 10px 10px;
+    font-family: ceefaxheading, monospace, 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ben {
+    background-color: white;
+    color: black;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    border: 7px solid white;
+    margin: 0px;
+}
+#quinn {
+    background-color: blue;
+    flex-grow: 2;
+    font-size: 91px;
+    text-align: center;
+    text-shadow: -5px -5px black;
+    color: yellow;
+    font-stretch: ultra-condensed;
+}
+
+.name {
+    display: flex;
+}
+#occupation {
+    width: 100%;
+    font-size: 1.4em;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: yellow;
+}
+.tagline h2 {
+    color: white;
+    font-size: 1.4em;
+}
+hr {
+    border: 2px solid blue;
+    background-color: blue;
+}
+footer p {
+    text-align: center;
+    background-color: blue;
+    color: yellow;
+    border: 5px solid blue;
+    margin: 0;
+}
+.tab {
+    margin: 150px;
+}
+div h3 {
+    display: inline-block;
+    font-size: 1.4em;
+}
+nav div {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    border-right: 3px solid blue;
+}
+nav div a {
+    color: yellow;
+    text-decoration: none;
+}
+nav div a:hover {
+    color: yellowgreen;
+}
+h3.number {
+    padding-right: 25px;
+}
+.socials {
+    width: 100%;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-around;
+}
+.socials a {
+    color: yellowgreen;
+    padding: 10px;
+    text-decoration: none;
+}
+a.github {color:red;}
+a.instagram {color: yellow;}
+a.facebook {color: lightblue;}
+footer div a:hover {
+    text-decoration: underline;
+}
+
+div.about-me {
+    position: absolute;
+    /* border: 5px solid goldenrod; */
+    height: 320px;
+    width: 55%;
+    position: absolute;
+    right: 40px;
+    top: 280px;
+    flex-wrap: wrap;
+    font-size: 0.9em; 
+    color: yellow;
+    border: none;
+    display: none;
+}
+.body-text {color:lightblue;}
+.body-text li{color: lightblue;}
+
+.body-text > a {
+    text-decoration: none;
+    color: yellow;
+}
+.body-text > a:hover {
+    text-decoration: underline;
+}
+#about-me:hover > div {
+    display: block;
+}
+div.qualities-box {
+    position: absolute;
+    /* border: 5px solid goldenrod; */
+    height: 320px;
+    width: 55%;
+    position: absolute;
+    right: 40px;
+    top: 300px;
+    flex-wrap: wrap;
+    font-size: 0.9em; 
+    color: yellow;
+    border: none;
+    display: none;
+}
+#qualities:hover > div {
+    display: block;
+}
+div.hobbies-box {
+    position: absolute;
+    /* border: 5px solid goldenrod; */
+    height: 320px;
+    width: 55%;
+    position: absolute;
+    right: 40px;
+    top: 300px;
+    flex-wrap: wrap;
+    font-size: 0.9em; 
+    color: yellow;
+    border: none;
+    display: none;
+}
+#hobbies-and-interests:hover > div {
+    display: block;
+}
+div.projects-box {
+    position: absolute;
+    /* border: 5px solid goldenrod; */
+    height: 320px;
+    width: 55%;
+    position: absolute;
+    right: 40px;
+    top: 280px;
+    flex-wrap: wrap;
+    font-size: 0.9em; 
+    color: yellow;
+    border: none;
+    display: none;
+}
+#projects:hover > div {
+    display: block;
+}
+div.contact-box {
+    position: absolute;
+    border: 5px solid goldenrod;
+    height: 320px;
+    width: 55%;
+    position: absolute;
+    right: 40px;
+    top: 300px;
+    flex-wrap: wrap;
+    font-size: 0.em; 
+    color: yellow;
+    border: none;
+    display: none;
+}
+form {
+    color: lightblue;
+}
+legend {
+    color: yellow;
+}
+#contact:hover > div {
+    display: block;
+}
+#span {
+    color: yellow;
+}
