@@ -5,17 +5,25 @@ exports[`TopBanner renders correctly 1`] = `
   <div
     class="top-banner"
   >
-    <span>
+    <span
+      class="top-banner-element"
+    >
       P100
     </span>
-    <span>
+    <span
+      class="top-banner-element"
+    >
       100 CEEFAX
     </span>
-    <span>
-      Sun 11 Sep
+    <span
+      class="top-banner-element"
+    >
+      SUN 11 SEP
     </span>
-    <span>
-      18:17/01
+    <span
+      class="top-banner-element"
+    >
+      19:35/46
     </span>
   </div>
 </DocumentFragment>

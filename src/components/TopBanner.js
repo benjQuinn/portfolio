@@ -3,7 +3,7 @@ import moment from "moment";
 import "../styles/top-banner.css";
 
 function TopBanner() {
-  const date = moment().format("ddd D MMM");
+  const date = moment().format("ddd D MMM").toUpperCase();
   const [time, setTime] = useState(moment().format("kk:mm/ss"));
 
   useEffect(() => {
@@ -14,10 +14,10 @@ function TopBanner() {
 
   return (
     <div className="top-banner">
-      <span>P100</span>
-      <span>100 CEEFAX</span>
-      <span>{date}</span>
-      <span>{time}</span>
+      <span className="top-banner-element">P100</span>
+      <span className="top-banner-element">100 CEEFAX</span>
+      <span className="top-banner-element">{date}</span>
+      <span className="top-banner-element">{time}</span>
     </div>
   );
 }

@@ -19,15 +19,16 @@
 * {
   margin: 0;
   font-family: ceefax-body;
+  color: white;
 }
-
-
 
 html, body {
   height: 100%;
 }
 
 body {
+  background-color: black;
+  height: 1vh;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -46,6 +47,6 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
 
-#root, #__next {
-  isolation: isolate;
+#root {
+  background-color: black;
 }

@@ -2,3 +2,11 @@
     display: flex;
     justify-content: space-between;
 }
+
+.top-banner-element {
+    font-size: 1.2rem;
+}
+
+.top-banner-element:last-child {
+    color: #ff0;
+}

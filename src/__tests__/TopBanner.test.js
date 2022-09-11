@@ -19,7 +19,7 @@ describe("TopBanner", () => {
   });
 
   it("renders the date correctly", () => {
-    const date = moment().format("ddd D MMM");
+    const date = moment().format("ddd D MMM").toUpperCase();
 
     render(<TopBanner />);
 
