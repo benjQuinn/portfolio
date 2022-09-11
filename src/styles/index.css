@@ -63,6 +63,10 @@ h6 {
   overflow-wrap: break-word;
 }
 
+li, h3 {
+  color: #ff0;
+}
+
 #root {
   background-color: black;
 }
