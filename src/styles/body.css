@@ -1,0 +1,19 @@
+.body {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    height: 350px;
+}
+
+.page {
+    padding: 3% 0 3% 3%;
+    height: 100%;
+}
+
+.page-title {
+    margin-bottom: 2%;
+}
+
+.page-title {
+    font-weight: 100;
+}
+

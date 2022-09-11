@@ -9,10 +9,10 @@ function Body() {
     <Router>
       <div className="body">
         <NavBar />
+        <Routes>
+          <Route exact path="/about-me" element={<AboutMe />} />
+        </Routes>
       </div>
-      <Routes>
-        <Route exact path="/about-me" element={<AboutMe />} />
-      </Routes>
     </Router>
   );
 }

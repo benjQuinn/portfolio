@@ -63,8 +63,20 @@ h6 {
   overflow-wrap: break-word;
 }
 
-li, h3 {
+a, h3 {
   color: #ff0;
+}
+
+p {
+  color: #00fdfd;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:active {
+  color: #00fdfd;
 }
 
 #root {
