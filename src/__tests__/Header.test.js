@@ -13,9 +13,12 @@ describe("Header", () => {
   it("renders text", () => {
     render(<Header />);
 
-    expect(screen.getByText(/b/i)).toBeInTheDocument();
-    expect(screen.getByText(/e/i)).toBeInTheDocument();
+    expect(screen.getByText("B")).toBeInTheDocument();
+    expect(screen.getByText("E")).toBeInTheDocument();
     expect(screen.getByText("N")).toBeInTheDocument();
-    expect(screen.getByText(/quinn/i)).toBeInTheDocument();
+    expect(screen.getByText(/q/i)).toBeInTheDocument();
+    expect(
+      screen.getByText(/full-stack software developer/i)
+    ).toBeInTheDocument();
   });
 });

@@ -23,8 +23,13 @@ exports[`Header renders correctly 1`] = `
     <h1
       class="header-last-name"
     >
-      QUINN
+      Q U I N N
     </h1>
   </div>
+  <h2
+    class="occupation"
+  >
+    FULL-STACK SOFTWARE DEVELOPER
+  </h2>
 </DocumentFragment>
 `;

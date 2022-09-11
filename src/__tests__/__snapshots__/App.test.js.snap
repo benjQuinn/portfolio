@@ -26,7 +26,7 @@ exports[`renders correctly 1`] = `
       <span
         class="top-banner-element"
       >
-        19:54/02
+        21:47/11
       </span>
     </div>
     <div
@@ -50,9 +50,14 @@ exports[`renders correctly 1`] = `
       <h1
         class="header-last-name"
       >
-        QUINN
+        Q U I N N
       </h1>
     </div>
+    <h2
+      class="occupation"
+    >
+      FULL-STACK SOFTWARE DEVELOPER
+    </h2>
   </div>
 </DocumentFragment>
 `;

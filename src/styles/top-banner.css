@@ -1,12 +1,12 @@
 .top-banner {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .top-banner-element {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .top-banner-element:last-child {
-    color: #ff0;
+  color: #ff0;
 }
