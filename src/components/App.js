@@ -1,8 +1,13 @@
 import React from "react";
-import "../styles/App.css";
+import "../styles/app.css";
+import TopBanner from "./TopBanner";
 
 function App() {
-  return <div className="App" />;
+  return (
+    <div id="viewport">
+      <TopBanner />
+    </div>
+  );
 }
 
 export default App;

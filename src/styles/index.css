@@ -1,10 +1,27 @@
+@font-face {
+  font-family: ceefax-heading;
+  src: url(../fonts/ceefax-heading.ttf);
+}
+
+@font-face {
+  font-family: ceefax-body;
+  src: url(../fonts/ceefax-body.otf);
+}
+
+#viewport {
+  margin: 5% 10% 5% 10%;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
 
 * {
   margin: 0;
+  font-family: ceefax-body;
 }
+
+
 
 html, body {
   height: 100%;
