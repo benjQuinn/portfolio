@@ -26,8 +26,32 @@ exports[`renders correctly 1`] = `
       <span
         class="top-banner-element"
       >
-        19:35/46
+        19:54/02
       </span>
+    </div>
+    <div
+      class="header"
+    >
+      <h1
+        class="header-first-name"
+      >
+        B
+      </h1>
+      <h1
+        class="header-first-name"
+      >
+        E
+      </h1>
+      <h1
+        class="header-first-name"
+      >
+        N
+      </h1>
+      <h1
+        class="header-last-name"
+      >
+        QUINN
+      </h1>
     </div>
   </div>
 </DocumentFragment>
