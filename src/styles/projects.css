@@ -1,13 +1,14 @@
 .projects-list {
     padding: 0;
 }
-.project-item {
+
+/* .project-item {
     font-size: 0.9rem;
 }
 
 .project-item + p {
     font-size: 0.8rem;
-}
+} */
 
 .project-item a {
     color: #00fdfd;

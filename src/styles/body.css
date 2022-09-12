@@ -1,12 +1,12 @@
 .body {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
-    height: 300px;
+    height: 375px;
 }
 
 .page {
     padding: 3% 0 3% 3%;
-    height: 300px;
+    height: 375px;
     width: 100%;
 }
 

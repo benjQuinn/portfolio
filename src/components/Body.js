@@ -6,6 +6,7 @@ import AboutMe from "./AboutMe";
 import TechStack from "./TechStack";
 import Experience from "./Experience";
 import Projects from "./Projects";
+import Contact from "./Contact";
 
 function Body() {
   return (
@@ -17,6 +18,7 @@ function Body() {
           <Route exact path="/tech-stack" element={<TechStack />} />
           <Route exact path="/experience" element={<Experience />} />
           <Route exact path="/projects" element={<Projects />} />
+          <Route exact path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>

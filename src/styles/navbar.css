@@ -19,3 +19,11 @@
     padding-right: 3%;
     font-size: 1.2rem;
 }
+
+.navbar-element a:hover {
+    color: #00fdfd;
+}
+
+.navbar-element a:active {
+    color: #ff0;
+}

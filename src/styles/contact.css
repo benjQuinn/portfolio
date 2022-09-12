@@ -1,0 +1,15 @@
+.contact-list {
+    padding: 0;
+}
+
+.email {
+    color: white;
+}
+
+.email:hover {
+    color: #ff0;
+}
+
+.email:active {
+    color: white;
+}
