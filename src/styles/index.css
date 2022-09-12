@@ -80,7 +80,7 @@ li {
   list-style: none;
 }
 
-a:active {
+a:active, i {
   color: #00fdfd;
 }
 

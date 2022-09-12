@@ -12,3 +12,7 @@
     margin: 15px;
     color: #00fdfd;
 }
+
+.tech-stack-item:nth-child(even) {
+    color: white;
+}

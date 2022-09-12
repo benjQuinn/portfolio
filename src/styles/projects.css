@@ -1,0 +1,22 @@
+.projects-list {
+    padding: 0;
+}
+.project-item {
+    font-size: 0.9rem;
+}
+
+.project-item + p {
+    font-size: 0.8rem;
+}
+
+.project-item a {
+    color: #00fdfd;
+}
+
+.project-item a:hover {
+    color: #ff0;
+}
+
+.project-item a:active {
+    color: #00fdfd;
+}

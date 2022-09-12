@@ -12,9 +12,10 @@
 
 .page-title {
     margin-bottom: 2%;
+    font-weight: 100;
 }
 
-.page-title {
-    font-weight: 100;
+.page-text:last-child {
+    color: white;
 }
 
