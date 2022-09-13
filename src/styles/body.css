@@ -6,7 +6,7 @@
 
 .page {
     padding: 3% 0 3% 3%;
-    height: 375px;
+    max-height: 375px;
     width: 100%;
 }
 

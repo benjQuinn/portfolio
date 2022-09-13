@@ -3,6 +3,7 @@ import "../styles/app.css";
 import TopBanner from "./TopBanner";
 import Header from "./Header";
 import Body from "./Body";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <TopBanner />
       <Header />
       <Body />
+      <Footer />
     </div>
   );
 }

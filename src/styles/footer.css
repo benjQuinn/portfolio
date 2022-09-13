@@ -1,0 +1,49 @@
+.footer {
+    background-color: #0100ff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.tag {
+    color: #ff0;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.4rem;
+}
+
+.twitter {
+    color:#0f0;
+}
+
+.twitter:hover {
+    color:rgb(0, 255, 0, 0.5);
+}
+
+.github {
+    color: #ff0000;
+}
+
+.github:hover {
+    color: rgba(255, 0, 0, 0.5)
+}
+
+.linkedin {
+    color: #ff0;
+}
+
+.linkedin:hover {
+    color: rgb(255, 255, 0, 0.5);
+}
+
+.codewars {
+    color: #00d3fd;
+}
+
+.codewars:hover {
+    color: #00fdfd50
+}
