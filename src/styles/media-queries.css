@@ -1,0 +1,106 @@
+
+
+@media screen and (max-width: 494px) {
+    #viewport {
+        margin: 50% 5% 10% 5%
+    }
+    .page, .body {
+        height: 325px
+    }
+    .top-banner-element {
+        font-size: 1.1rem;
+    }
+    .header-first-name, .header-last-name {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.3rem;
+    }
+    .navbar-element > a, .navbar-element > a + span {
+        font-size: 1rem;
+    } 
+    .page-title {
+        font-size: 1.1rem;
+    }
+    .page-text {
+        font-size: 0.69rem;
+    }
+    .experience-item, .experience-item + p {
+        font-size: 0.7rem;
+    }
+    .tech-stack-list {
+        gap: 0;
+        padding: 10%;
+    }
+    .tech-stack-item {
+        font-size: 0.8rem;
+        padding: 0;
+    }
+    .project-item, .project-item + p {
+        font-size: 0.625rem;
+    }
+    .contact-item, .contact-item + p {
+        font-size: 0.9rem;
+    }
+    .link {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #viewport {
+        margin: 20% 2.5%;
+    }
+    .page, .body {
+        height: 285px
+    }
+    .page {
+        padding-left: 5%;
+        padding-top: 5%;
+    }
+    .header {
+        gap: 2%
+    }
+    .header-first-name, .header-last-name {
+        font-size: 2.75rem !important;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    .page-title {
+        font-size: 0.8rem;
+    }
+    .page-text {
+        font-size: 0.5rem;
+    }
+    .link {
+        font-size: 1rem;
+    }
+    .navbar-element > a, .top-banner-element {
+        font-size: 0.9rem;
+    }
+    .tech-stack-list {
+        padding: 5% 0 5% 0;
+    }
+    .tech-stack-item {
+        font-size: 0.7rem;
+    }
+    a + span {
+        margin-right: 5px;
+    }
+    .experience-item, .experience-item + p {
+        font-size: 0.5rem;
+    }
+    .project-item, .project-item + p {
+        font-size: 0.5em;
+    }
+    .contact-item, .contact-item + p {
+        font-size: 0.8rem;
+    }
+    .tag {
+        font-size: 0.8rem;
+    }
+}

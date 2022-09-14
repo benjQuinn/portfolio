@@ -13,7 +13,10 @@ function Contact() {
 
         <li className="contact-item">EMAIL</li>
         <p>
-          <a className="email" href="mailto:benjamesquinn@gmail.com">
+          <a
+            className="email"
+            href="mailto:benjamesquinn@gmail.com?subject=Let's work!"
+          >
             {"benjamesquinn@gmail.com".toUpperCase()}
           </a>
         </p>
