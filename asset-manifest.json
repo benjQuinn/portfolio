@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5b2446e7.css",
-    "main.js": "/portfolio/static/js/main.4be370f3.js",
+    "main.css": "/portfolio/static/css/main.d8a5cdb5.css",
+    "main.js": "/portfolio/static/js/main.981970d0.js",
     "static/media/ceefax-body.otf": "/portfolio/static/media/ceefax-body.152d98b53a3f243c5fa7.otf",
     "static/media/ceefax-heading.ttf": "/portfolio/static/media/ceefax-heading.a04a9f6d74ab5677d384.ttf",
     "index.html": "/portfolio/index.html",
-    "main.5b2446e7.css.map": "/portfolio/static/css/main.5b2446e7.css.map",
-    "main.4be370f3.js.map": "/portfolio/static/js/main.4be370f3.js.map"
+    "main.d8a5cdb5.css.map": "/portfolio/static/css/main.d8a5cdb5.css.map",
+    "main.981970d0.js.map": "/portfolio/static/js/main.981970d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b2446e7.css",
-    "static/js/main.4be370f3.js"
+    "static/css/main.d8a5cdb5.css",
+    "static/js/main.981970d0.js"
   ]
 }
